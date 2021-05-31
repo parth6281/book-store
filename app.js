@@ -4,6 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+// require app router from APP_SERVER folder
 var indexRouter = require('./APP_SERVER/routes/index');
 
 var app = express();
@@ -12,13 +13,13 @@ var app = express();
 app.set('views', path.join(__dirname, 'APP_SERVER', 'views'));
 app.set('view engine', 'pug');
 
-
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Assign the app to the index route of the application
 app.use('/', indexRouter);
 
 // catch 404 and forward to error handler

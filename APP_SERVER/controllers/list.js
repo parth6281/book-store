@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
+// Books data to be displayed on the listing page.
 const books = [
     { title: '12 Rules For Life', author: 'Jordan Peterson', src: "/images/12.jpg" },
     { title: 'Beyond Order', author: 'Jordan Peterson', src: "/images/beyond_order.jpg" },
@@ -11,6 +12,7 @@ const books = [
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
+    // Render the book listing page with the books data.
     res.render('list-display', { title: 'Books', books });
 });
 

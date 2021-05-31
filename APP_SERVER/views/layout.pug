@@ -1,0 +1,36 @@
+doctype html
+html
+    head
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title= title
+        link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+        link(rel='stylesheet', href='/stylesheets/all.min.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+
+    body
+        .container
+            nav.navbar.navbar-expand-lg.navbar-light.bg-light
+                a.navbar-brand(href='/') Book Store
+                button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+
+                #navbarSupportedContent.collapse.navbar-collapse
+                    .navbar-nav.me-auto.mb-2.mb-lg-0
+                        li.nav-item
+                            a.nav-link(href='/', area-current='page') Home
+                        li.nav-item
+                            a.nav-link(href='/about') About
+                        li.nav-item
+                            a.nav-link(href='/list') Book List  
+                        li.nav-item
+                            a.nav-link(href='/display') Display
+
+            block content
+
+            footer.page-footer.font-small.unique-color-dark.pt-4.footerbg
+
+                .footer-copyright.text-center.py-3
+                    | &copy; 2021 Copyright: Parthkumar Prajapati
+            script(src='https://code.jquery.com/jquery-3.1.1.slim.min.js')
+            script(src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js')
+            script(src='/javascripts/bootstrap.min.js')

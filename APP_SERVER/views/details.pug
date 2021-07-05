@@ -1,0 +1,43 @@
+extends layout
+include _includes/sharedHTMLfunctions
+
+block content
+
+  .container
+    .row.image-desc
+      .col-3
+        .card(style='width: 18rem;')
+          img.card-img-top(src=`${book.src}` alt='Card image cap')
+      .col-9
+        .container
+          .row
+            .col
+              h1 #{book.title}
+          .row
+            .col
+              h2 by #{book.author}
+          .row.rating-div
+            .col 
+              span.rating
+                +outputRating(book.rating)
+          .row.justify-content-start
+            .col-6
+              span.description #{book.description}
+    .row.justify-content-start.reviews-section
+      .col-8
+        h2 Customer Reviews
+        each review in book.reviews
+          .col-12.review
+            .card
+              .card-body
+                .row.justify-content-start
+                  .col-2
+                    h5.card-title #{review.author}
+                  .col-3
+                    span.rating
+                      +outputRating(review.rating)
+                  .col.dates
+                    span 
+                     +formatDate(review.createdOn)
+                p.card-text
+                | #{review.reviewText}

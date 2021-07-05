@@ -1,0 +1,35 @@
+extends layout
+
+block content
+  .container
+    .row
+      .col-12.col-md-8
+        form#bookformdata.bookform(action='/uploadbook' method='POST' enctype='multipart/form-data')
+          #error.alert.alert-danger(role='alert') #{error}
+          .form-group.row
+            label.col-10.col-sm-2.col-form-label Title
+            .col-12.col-sm-10
+              input#title.form-control(type='text' required='' aria-describedby='' placeholder='Enter Title' name='title')
+          .form-group.row
+            label.col-10.col-sm-2.col-form-label Author
+            .col-12.col-sm-10
+              input#author.form-control(type='text' required='' aria-describedby='' placeholder='Enter Author' name='author')
+          .form-group.row
+            label.col-10.col-sm-2.col-form-label Publisher
+            .col-12.col-sm-10
+              input#publisher.form-control(type='text' required='' aria-describedby='' placeholder='Enter Publisher' name='publisher')
+          .form-group.row
+            label.col-10.col-sm-2.col-form-label Price
+            .col-12.col-sm-10
+              input#price.form-control(type='text' required='' aria-describedby='' placeholder='Enter Price' name='price')
+          .form-group.row
+            label.col-10.col-sm-2.col-form-label Description
+            .col-12.col-sm-10
+              textarea#review.form-control(name='description' rows='10')
+          .col-12.col-md-4
+          .form-group
+            label(for='') Select Cover Photo
+            input.form-control-file(type='file' name='image')
+          button#sub.btn.btn-primary(type='submit') Submit
+block customscript
+  script(src="/javascripts/main.js")          

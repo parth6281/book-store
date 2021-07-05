@@ -1,24 +1,30 @@
 var express = require('express');
 var router = express.Router();
 
-// Require controllers to be assigned as appropriate routes.
-const listRouter = require('../controllers/list');
-const aboutRouter = require('../controllers/about');
+const ctrlBooks = require('../controllers/books');
+var multer = require('multer');
+var upload = multer({ dest: 'public/images/', preservePath: true })
 
+var ctrlImages = require('../controllers/images');
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    // render index page of the application.
-    res.render('index', { title: 'Book Store' });
+    res.render('index.pug', { title: 'Book Store' });
 });
 
-// assign imported routers to the appropriate routes.
-router.use('/about', aboutRouter);
-router.use('/list', listRouter);
+router.get('/create', ctrlBooks.bookCreateForm);
 
+router.get('/about', ctrlBooks.about);
+
+router.get('/list', ctrlBooks.booklist);
+
+router.get('/details/:bookid', ctrlBooks.bookDetails);
+
+router.post('/uploadbook', upload.single('image'), ctrlBooks.createBook);
 
 router.get('/display', function (req, res, next) {
-    // render display page of the application.
     res.render('display', { title: 'Display' });
 })
+
+router.get('/images/:imageid', ctrlImages.getImage);
 
 module.exports = router;

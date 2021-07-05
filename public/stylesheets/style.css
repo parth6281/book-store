@@ -1,4 +1,4 @@
-body {
+/* body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
@@ -28,4 +28,57 @@ a {
 .search_container {
   margin-top: 50px;
   text-align: center;
+} */
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+
+a {
+color: #00B7FF;
+}
+
+.image-desc {
+justify-content: center;
+margin-top: 15px;
+}
+
+.review {
+padding: 10px;
+}
+.carouselText {
+margin-top: 30px;
+}
+
+.search_label {
+font-size: 1.8em;
+font-weight: bold;
+margin-bottom: 25px;
+}
+
+.search_container {
+margin-top: 50px;
+text-align: center;
+}
+
+.reviews-section {
+margin-top: 50px;
+}
+
+.dates {
+text-align: right;
+}
+
+.description {
+font-size: 1.1em;
+}
+
+.rating-div {
+  margin-bottom: 10px;
+}
+
+.bookform * {
+  padding: 5px;
+}
+

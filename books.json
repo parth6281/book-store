@@ -1,0 +1,280 @@
+[{
+  "_id": {
+    "$oid": "60dcb5d243e8791e3cb02901"
+  },
+  "title": "12 Rules For Life",
+  "author": "Jordan Peterson",
+  "publisher": "Penguin",
+  "price": 23,
+  "image": {
+    "$oid": "60e2dde7bcd75547e0ef6fa7"
+  },
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "60e2e009d24e9414b01fe923"
+      },
+      "author": "Kirtan",
+      "rating": 2,
+      "reviewText": "All his theories can be traced back to Arthur Schopenhauer. Hence. Also it is said the concepts lack scientific rigour.",
+      "createdOn": {
+        "$date": "2021-07-05T10:33:45.173Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2e0162665c755788a59be"
+      },
+      "author": "Kirtan",
+      "rating": 2,
+      "reviewText": "All his theories can be traced back to Arthur Schopenhauer. Hence. Also it is said the concepts lack scientific rigour.",
+      "createdOn": {
+        "$date": "2021-07-05T10:33:58.810Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2e0503bbeec6990cab3e6"
+      },
+      "author": "Parth",
+      "rating": 4,
+      "reviewText": "The first to discover levels of consciousness below our awareness - the preconscious and the unconscious (he did not use the term subconscious",
+      "createdOn": {
+        "$date": "2021-07-05T10:34:56.146Z"
+      }
+    }
+  ],
+  "__v": 3,
+  "description": "Humorous, surprising, and informative, Dr. Peterson tells us why skateboarding boys and girls must be left alone, what terrible fate awaits those who criticize too easily, and why you should always pet a cat when you meet one on the street.\n\nWhat does the nervous system of the lowly lobster have to tell us about standing up straight (with our shoulders back) and about success in life? Why did ancient Egyptians worship the capacity to pay careful attention as the highest of gods? What dreadful paths do people tread when they become resentful, arrogant, and vengeful? Dr. Peterson journeys broadly, discussing discipline, freedom, adventure, and responsibility, distilling the world's wisdom into 12 practical and profound rules for life. 12 Rules for Life shatters the modern commonplaces of science, faith, and human nature while transforming and ennobling the mind and spirit of its listeners.",
+  "rating": 3
+},{
+  "_id": {
+    "$oid": "60dcb5d243e8791e3cb02902"
+  },
+  "title": "Beyond Order",
+  "author": "Jordan Peterson",
+  "publisher": "Hachette",
+  "price": 40,
+  "image": {
+    "$oid": "60e2dde7bcd75547e0ef6fa9"
+  },
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "60e2e009d24e9414b01fe924"
+      },
+      "author": "Kirtan",
+      "rating": 2,
+      "reviewText": "All his theories can be traced back to Arthur Schopenhauer. Hence. Also it is said the concepts lack scientific rigour.",
+      "createdOn": {
+        "$date": "2021-07-05T10:33:45.176Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2e0162665c755788a59bf"
+      },
+      "author": "Kirtan",
+      "rating": 2,
+      "reviewText": "All his theories can be traced back to Arthur Schopenhauer. Hence. Also it is said the concepts lack scientific rigour.",
+      "createdOn": {
+        "$date": "2021-07-05T10:33:58.813Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2e0503bbeec6990cab3e7"
+      },
+      "author": "Parth",
+      "rating": 4,
+      "reviewText": "The first to discover levels of consciousness below our awareness - the preconscious and the unconscious (he did not use the term subconscious",
+      "createdOn": {
+        "$date": "2021-07-05T10:34:56.150Z"
+      }
+    }
+  ],
+  "__v": 3,
+  "description": "The sequel to 12 Rules for Life offers further guidance on the periolus path of modern life.\n\nIn 12 Rules for Life, clinical psychologist and celebrated professor at Harvard and the University of Toronto Dr. Jordan B. Peterson helped millions of readers impose order on the chaos of their lives. Now, in this bold sequel, Peterson delivers twelve more lifesaving principles for resisting the exhausting toll that our desire to order the world inevitably takes.\n\nIn a time when the human will increasingly imposes itself over every sphere of life—from our social structures to our emotional states—Peterson warns that too much security is dangerous. What’s more, he offers strategies for overcoming the cultural, scientific, and psychological forces causing us to tend toward tyranny, and teaches us how to rely instead on our instinct to find meaning and purpose, even—and especially—when we find ourselves powerless.",
+  "rating": 3
+},{
+  "_id": {
+    "$oid": "60dcb5d243e8791e3cb02903"
+  },
+  "title": "Crime and Punishment",
+  "author": "Fyodor Dostoevsky",
+  "publisher": "HarperCollins",
+  "price": 50,
+  "image": {
+    "$oid": "60e2dde7bcd75547e0ef6faa"
+  },
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "60e2e009d24e9414b01fe925"
+      },
+      "author": "Kirtan",
+      "rating": 2,
+      "reviewText": "All his theories can be traced back to Arthur Schopenhauer. Hence. Also it is said the concepts lack scientific rigour.",
+      "createdOn": {
+        "$date": "2021-07-05T10:33:45.177Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2e0162665c755788a59c0"
+      },
+      "author": "Kirtan",
+      "rating": 2,
+      "reviewText": "All his theories can be traced back to Arthur Schopenhauer. Hence. Also it is said the concepts lack scientific rigour.",
+      "createdOn": {
+        "$date": "2021-07-05T10:33:58.814Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2e0503bbeec6990cab3e8"
+      },
+      "author": "Parth",
+      "rating": 4,
+      "reviewText": "The first to discover levels of consciousness below our awareness - the preconscious and the unconscious (he did not use the term subconscious",
+      "createdOn": {
+        "$date": "2021-07-05T10:34:56.151Z"
+      }
+    }
+  ],
+  "__v": 3,
+  "description": "Raskolnikov, a destitute and desperate former student, wanders through the slums of St Petersburg and commits a random murder without remorse or regret. He imagines himself to be a great man, a Napoleon: acting for a higher purpose beyond conventional moral law. But as he embarks on a dangerous game of cat and mouse with a suspicious police investigator, Raskolnikov is pursued by the growing voice of his conscience and finds the noose of his own guilt tightening around his neck. Only Sonya, a downtrodden sex worker, can offer the chance of redemption.",
+  "rating": 3
+},{
+  "_id": {
+    "$oid": "60dcb5d243e8791e3cb02904"
+  },
+  "title": "Beyond Good and Evil",
+  "author": "Friedrich Nietzsche",
+  "publisher": "Macmillan",
+  "price": 25,
+  "image": {
+    "$oid": "60e2dde7bcd75547e0ef6fa8"
+  },
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "60e2e009d24e9414b01fe926"
+      },
+      "author": "Kirtan",
+      "rating": 2,
+      "reviewText": "All his theories can be traced back to Arthur Schopenhauer. Hence. Also it is said the concepts lack scientific rigour.",
+      "createdOn": {
+        "$date": "2021-07-05T10:33:45.177Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2e0162665c755788a59c1"
+      },
+      "author": "Kirtan",
+      "rating": 2,
+      "reviewText": "All his theories can be traced back to Arthur Schopenhauer. Hence. Also it is said the concepts lack scientific rigour.",
+      "createdOn": {
+        "$date": "2021-07-05T10:33:58.815Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2e0503bbeec6990cab3e9"
+      },
+      "author": "Parth",
+      "rating": 4,
+      "reviewText": "The first to discover levels of consciousness below our awareness - the preconscious and the unconscious (he did not use the term subconscious",
+      "createdOn": {
+        "$date": "2021-07-05T10:34:56.152Z"
+      }
+    }
+  ],
+  "__v": 3,
+  "description": "Friedrich Nietzsche's Beyond Good and Evil is translated from the German by R.J. Hollingdale with an introduction by Michael Tanner in Penguin Classics.\n\nBeyond Good and Evil confirmed Nietzsche's position as the towering European philosopher of his age. The work dramatically rejects the tradition of Western thought with its notions of truth and God, good and evil. Nietzsche demonstrates that the Christian world is steeped in a false piety and infected with a 'slave morality'. With wit and energy, he turns from this critique to a philosophy that celebrates the present and demands that the individual imposes their own 'will to power' upon the world.\n\nThis edition includes a commentary on the text by the translator and Michael Tanner's introduction, which explains some of the more abstract passages in Beyond Good and Evil.",
+  "rating": 3
+},{
+  "_id": {
+    "$oid": "60dcb5d243e8791e3cb02905"
+  },
+  "title": "The Interpretation of Dreams",
+  "author": "Sigmund Freud",
+  "publisher": "Macmillan",
+  "price": 15,
+  "image": {
+    "$oid": "60e2dde7bcd75547e0ef6fab"
+  },
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "60e2def8685fc649a8caf972"
+      },
+      "author": "Parth",
+      "rating": 3,
+      "reviewText": "The first to discover levels of consciousness below our awareness - the preconscious and the unconscious (he did not use the term subconscious).",
+      "createdOn": {
+        "$date": "2021-07-05T10:29:12.722Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2df242d23e96f9076b354"
+      },
+      "author": "Kirtan",
+      "rating": 2,
+      "reviewText": "All his theories can be traced back to Arthur Schopenhauer. Hence. Also it is said the concepts lack scientific rigour.",
+      "createdOn": {
+        "$date": "2021-07-05T10:29:56.233Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2e009d24e9414b01fe927"
+      },
+      "author": "Kirtan",
+      "rating": 2,
+      "reviewText": "All his theories can be traced back to Arthur Schopenhauer. Hence. Also it is said the concepts lack scientific rigour.",
+      "createdOn": {
+        "$date": "2021-07-05T10:33:45.178Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2e0162665c755788a59c2"
+      },
+      "author": "Kirtan",
+      "rating": 2,
+      "reviewText": "All his theories can be traced back to Arthur Schopenhauer. Hence. Also it is said the concepts lack scientific rigour.",
+      "createdOn": {
+        "$date": "2021-07-05T10:33:58.817Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60e2e0503bbeec6990cab3ea"
+      },
+      "author": "Parth",
+      "rating": 4,
+      "reviewText": "The first to discover levels of consciousness below our awareness - the preconscious and the unconscious (he did not use the term subconscious",
+      "createdOn": {
+        "$date": "2021-07-05T10:34:56.152Z"
+      }
+    }
+  ],
+  "__v": 5,
+  "description": "Freud's discovery that the dream is the means by which the unconscious can be explored is undoubtedly the most revolutionary step forward in the entire history of psychology. Dreams, according to his theory, represent the hidden fulfillment of our unconscious wishes.",
+  "rating": 3
+},{
+  "_id": {
+    "$oid": "60e30b2f80a1dc69603580bf"
+  },
+  "rating": 0,
+  "title": "New Title",
+  "author": "New Author",
+  "publisher": "New Publisher",
+  "price": 45,
+  "image": null,
+  "reviews": [],
+  "__v": 0
+}]
